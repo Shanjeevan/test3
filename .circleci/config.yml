@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     executor:
-      name: aa
+      name: win/default
     steps:
       # default shell is Powershell
       - run:
